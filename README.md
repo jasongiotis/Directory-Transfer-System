@@ -9,7 +9,7 @@
 
      -b is the buffer size
      -s is the number of workers
-     -q is the queue size ( how many folders  can be in the queue at the same time)
+     -q is the queue size ( how many directories can be in the queue to be transfered at the same time)
 
     if you want to transfer all the Lyrics folder:
         ./remoteClient -p 4037 -i 127.0.0.1 -d ./Lyrics 
