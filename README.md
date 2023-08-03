@@ -7,6 +7,8 @@
     Local Execution Example ( you must change the ip addresses accordingly if you want to run it in different machines) :
     ./dataServer -s 1 -p 4037 -b 512 -q 1
 
+    To execute the client make sure you are in the clientpc directory 
+
     if you want to transfer all the Lyrics folder:
         ./remoteClient -p 4030 -i 127.0.0.1 -d ./Lyrics 
 
