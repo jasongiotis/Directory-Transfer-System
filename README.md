@@ -10,10 +10,10 @@
     To execute the client make sure you are in the clientpc directory 
 
     if you want to transfer all the Lyrics folder:
-        ./remoteClient -p 4030 -i 127.0.0.1 -d ./Lyrics 
+        ./remoteClient -p 4037 -i 127.0.0.1 -d ./Lyrics 
 
     if you want to transfer only one subfolder of Lyrics folder :
-        ./remoteClient -p 4030 -i 127.0.0.1 -d ./Lyrics/Metallica
+        ./remoteClient -p 4037 -i 127.0.0.1 -d ./Lyrics/Metallica
 
 
 
