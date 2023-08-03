@@ -7,11 +7,15 @@
     Local Execution Example ( you must change the ip addresses accordingly if you want to run it in different machines) :
     ./dataServer -s 1 -p 4037 -b 512 -q 1
 
+     -b is the buffer size
+     -s is the number of workers
+     -q is the queue size ( how many folders  can be in the queue at the same time)
+
     if you want to transfer all the Lyrics folder:
-        ./remoteClient -p 4030 -i 127.0.0.1 -d ./Lyrics 
+        ./remoteClient -p 4037 -i 127.0.0.1 -d ./Lyrics 
 
     if you want to transfer only one subfolder of Lyrics folder :
-        ./remoteClient -p 4030 -i 127.0.0.1 -d ./Lyrics/Metallica
+        ./remoteClient -p 4037 -i 127.0.0.1 -d ./Lyrics/Metallica
 
 
 
